@@ -1,0 +1,28 @@
+Charlier: a_n(w) = -A^[k](w)/((n-1-w)(n-2-w)): True
+Charlier: theta_n(w) as in the proof of Lemma 3.1 (gamma -> gamma+k): True
+Charlier: recursion (19) for eps_n is equivalent to the three-term recurrence: True
+Charlier: lim n^2 a_n = -A^[k](w): True
+Charlier: lim theta_n = 1 - c_mu: True
+   lim n*(theta_n-(1-c)) = mu
+Charlier: n*(theta_n-(1-c)) has a finite limit: True
+Meixner: a_n(w) = -A^[k](w)/((n-1-w)(n-2-w)): True
+Meixner: theta_n(w) as in the proof of Lemma 3.1 (gamma -> gamma+k): True
+Meixner: recursion (19) for eps_n is equivalent to the three-term recurrence: True
+Meixner: lim n^2 a_n = -A^[k](w): True
+Meixner: lim theta_n = 1 - c_mu: True
+   lim n*(theta_n-(1-c)) = mu*(gamma + k + 2*w)
+Meixner: n*(theta_n-(1-c)) has a finite limit: True
+Charlier: identity (70) A^[j](alpha)-A^[0](alpha) = (1-c)j(1+alpha): True
+Meixner:  identity (70) A^[j](alpha)-A^[0](alpha) = (1-c)j(1+alpha): True
+exact identity of the proof of Lemma 3.21(2): f_m(alpha) = 1 - j(1+alpha)/((m-j)(m-1-alpha)): True
+Charlier: coefficient of m^-1 in 1 - varrho_m/r_m(alpha) is 0: True
+Charlier: coefficient of m^-2 equals j(1+alpha)/c_mu (independent of the O(m^-3) remainders): True
+Meixner: coefficient of m^-1 in 1 - varrho_m/r_m(alpha) is 0: True
+Meixner: coefficient of m^-2 equals j(1+alpha)/c_mu (independent of the O(m^-3) remainders): True
+Charlier: (73) lim t_(k-1)/t_k = 1 - c_mu: True
+   lim k*(t_(k-1)/t_k-(1-c)) = mu
+Charlier: k*(t_(k-1)/t_k - (1-c)) has a finite limit: True
+Meixner: (73) lim t_(k-1)/t_k = 1 - c_mu: True
+   lim k*(t_(k-1)/t_k-(1-c)) = mu*(2*alpha + gamma + 1)
+Meixner: k*(t_(k-1)/t_k - (1-c)) has a finite limit: True
+ALL SYMBOLIC CHECKS PASSED
